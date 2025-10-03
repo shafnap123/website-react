@@ -1,0 +1,87 @@
+/* .Adminpage{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+} */
+/* .Adminpage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+} */
+
+/* Link styles */
+/* .Adminpage a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+} */
+
+/* Hover effect */
+/* .Adminpage a:hover {
+  background-color: #e0e0e0;
+  color: #000;
+} */
+/* Wrapper for sidebar */
+.Adminpage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+
+/* Link styling */
+.Adminpage a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Hover effect */
+.Adminpage a:hover {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+/* Responsive support */
+@media (max-width: 768px) {
+  .Adminpage {
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .Adminpage a {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Adminpage {
+    padding: 8px;
+    gap: 10px;
+  }
+
+  .Adminpage a {
+    font-size: 15px;
+    padding: 6px 10px;
+  }
+}

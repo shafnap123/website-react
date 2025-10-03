@@ -1,0 +1,190 @@
+.homemain{
+    width: 100%;
+    height:100vh;
+    
+    
+}
+img{
+    width:100%;
+    height: 100%;
+    
+}
+
+.homemainfull{
+    width: 100%;
+ background:linear-gradient(to right,
+ black 60%,
+ yellowgreen 40%);
+ height: 100%;
+ overflow: hidden;
+}
+
+
+
+
+ .h1bhead{
+   color: white;
+   font-size:80px;
+}
+
+p{
+    color:white;
+    
+}
+.mainfullhome{
+    display:flex;
+    background-color: black;
+
+    height:100%;
+    justify-content: end;
+
+    
+    width:100%;
+    
+    
+}
+ .food img{
+    width:100%;
+    height:100%;
+}
+.homemainh1a{
+    font-size:30px;
+    color:yellowgreen;
+    font-weight:300;
+    margin:10px;
+    
+    
+
+}
+
+    
+
+.about .span{
+    font-size:60px;
+    font-weight: 300;
+    color:yellowgreen;
+}
+.about{
+    height:100%;
+       
+       width:50%;
+    
+    
+}
+
+.h1home{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.t{
+    color: antiquewhite;
+}
+.lorem{
+    font-weight: 600;
+}
+
+ .headabout{
+    width: auto;
+    height: 100%;
+    margin-top:60px;
+    margin-left:40px;
+   
+ }
+ .lorem{
+    font-size: 18px;
+ }
+ /* === Base styles - keep your existing ones === */
+
+/* Add these for responsive tweaks */
+
+/* Tablet: 768px - 1024px */
+@media (max-width: 1024px) {
+  .mainfullhome {
+    flex-wrap: wrap; /* allow wrapping */
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .about {
+    width: 100%; /* take full width */
+    padding-left: 20px;
+    margin-top: 30px;
+  }
+
+  .food {
+    width: 100%;
+    height: 300px; /* fixed height for image container */
+    margin-top: 20px;
+  }
+
+  .h1bhead {
+    font-size: 50px;
+  }
+
+  .about .span {
+    font-size: 40px;
+  }
+
+  .homemainh1a {
+    font-size: 25px;
+  }
+}
+
+/* Mobile: below 767px */
+@media (max-width: 767px) {
+  .homemainfull {
+    background: black; /* simplify background on mobile */
+    padding: 10px;
+  }
+
+  .mainfullhome {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px;
+  }
+
+  .about {
+    width: 100% !important; /* full width */
+    padding-left: 10px !important;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .food {
+    width: 100% !important;
+    height: 250px;
+    margin-top: 15px;
+  }
+
+  .h1bhead {
+    font-size: 38px;
+  }
+
+  .about .span {
+    font-size: 28px;
+  }
+
+  .homemainh1a {
+    font-size: 20px;
+  }
+
+  .lorem {
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 0 10px;
+  }
+
+  .h1home {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .homebutton {
+    width: 100% !important; /* full width buttons */
+    max-width: 300px;
+  }
+}

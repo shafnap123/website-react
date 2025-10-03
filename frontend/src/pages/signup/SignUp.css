@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.mainsigns{
+    /* width:100vw;
+    min-height:100vh;
+    display: flex;
+    
+    justify-content: center;
+    background-color: yellowgreen; */
+     width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellowgreen;
+  padding: 20px;
+
+}
+.signs{
+    
+    
+    text-align: center;
+    
+      width: 100%;
+  max-width: 600px;
+  background-color: black;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+    
+    
+}
+.text{
+    width:300px;
+    height:30px;
+}
+
+
+.lab{
+    color: white;
+}
+
+
+small{
+    color: red;
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.checkbox{
+
+}
+.h1signup{
+
+    color: greenyellow;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  
+}
+.inputsignup {
+  width: 100%;               
+  max-width: 450px;          
+  padding: 1rem 1.2rem;      
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 3px solid yellowgreen;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  box-sizing: border-box;   
+  min-height: 3.5rem;        
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+.inputsignup::placeholder {
+  color: #bbb;}
+}
+
+.inputsignup:focus {
+  outline: none;
+  border-bottom-color: orangered;
+  color: orangered;
+}
+.joinus:hover{
+    
+  background-color: green;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .h1signup {
+    font-size: 2rem;
+   
+  }
+
+  .inputsignup {
+    padding: 15px;
+    font-size: 0.9rem;
+  }}
+
+  @media screen and (max-width: 480px) {
+  .signs {
+    padding: 25px 20px;
+  }
+
+  .h1signup {
+    font-size: 1.8rem;
+  }
+}

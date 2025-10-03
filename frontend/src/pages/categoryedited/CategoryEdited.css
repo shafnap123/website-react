@@ -1,0 +1,130 @@
+/* .mainedited{
+    width:100vw;
+    height: 100vh;
+}
+.secondmainedided{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    
+}
+.maineditedh1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+.mainedited {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9; /* optional background */
+}
+
+.secondmainedided {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maineditedh1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.maineditedh1 h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 500px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: yellowgreen;
+  outline: none;
+}
+
+.categoryeditbutton {
+  width: 100%;
+  max-width: 200px;
+  height: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background-color: yellowgreen;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a6c639;
+}
+
+/* Responsive Styles */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .secondmainedided {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  input[type="text"] {
+    height: 45px;
+    font-size: 0.95rem;
+  }
+
+  button {
+    height: 45px;
+    font-size: 0.95rem;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .secondmainedided {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  input[type="text"] {
+    height: 40px;
+    font-size: 0.9rem;
+  }
+
+  button {
+    height: 40px;
+    font-size: 0.9rem;
+  }
+}

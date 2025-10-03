@@ -1,0 +1,130 @@
+
+
+.profilist {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.proseclist {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.productuploadlist {
+  width: 100%;
+  max-width: 1000px;
+  box-sizing: border-box;
+  overflow-x: auto; 
+}
+
+
+
+.productuploadlist table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+table th {
+  text-align: start;
+  padding: 12px 10px;
+  background-color: #f3f3f3;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+table td {
+  padding: 10px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+
+
+.item-flexlist {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.productimagelist {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.foodsptaglist {
+  color: blue;
+  font-size: 16px;
+  margin: 0;
+}
+
+
+
+.btnclasslist {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.btnclasslist button {
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #e2e2e2;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btnclasslist button:hover {
+  background-color: #ccc;
+}
+
+
+@media (max-width: 768px) {
+  .productuploadlist {
+    padding: 0 10px;
+  }
+
+  .productuploadlist table {
+    min-width: 600px;
+  }
+
+  .productimagelist {
+    width: 40px;
+    height: 40px;
+  }
+
+  .btnclasslist button {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .foodsptaglist {
+    font-size: 14px;
+  }
+
+  table th, table td {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .btnclasslist {
+    gap: 5px;
+  }
+
+  .btnclasslist button {
+    font-size: 12px;
+  }
+}
+
+
+

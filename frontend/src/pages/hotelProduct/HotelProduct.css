@@ -1,0 +1,330 @@
+/* .gomatomain{
+    width:100%;
+    height:100vh;
+    
+}
+.gomatosec{
+    width:100%;
+    height: 100vh;
+    
+   
+}
+.gomatoh1{
+    color: white;
+
+
+    
+    
+ 
+
+}
+.gomatoheaddiv{
+    
+    height: 100px;
+    background-color: black;
+}
+.linkhpc{
+
+    display: flex;
+    gap:20px;
+      
+
+
+}
+.signuplink{
+    display: flex;
+     justify-content: space-around;
+  align-items: center;
+  margin-top:10px;
+  background-color: yellowgreen;
+  margin: 0%;
+   height: 100px;
+    
+}
+.buttonlinkforstyle{
+   
+
+}
+.leftsideheadcategories{
+  
+
+}
+.leftsidecategories{
+    width:250px;
+    height:100vh ;
+    background-color: whitesmoke
+    
+}
+.imgrightsidecategories{
+    width: 200px;
+    height: 100px;
+    margin-top:10px;
+    display: flex;
+    
+    
+}
+.displayflexleftsidecategories{
+    display: flex;
+    gap:20px;
+}
+.imagerightsidediv{
+    width: 400px;
+    
+}
+.imagerightsidep{
+    color: red;
+    text-align: start;
+}
+.viewmenudiv{
+    display: flex;
+    gap:20px;
+}
+.pricep{
+color:black
+}
+
+.imagerightsidecategories{
+    display: flex;
+    flex-wrap:wrap;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-contact h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer-contact p,
+.footer-copy p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-contact a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+} */
+/* Main container */
+/* Main container */
+.gomatomain {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Header section */
+.signuplink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+  background-color: yellowgreen;
+  flex-wrap: wrap;
+}
+
+.gomatoh1 {
+  color: white;
+  font-size: 28px;
+  margin: 0;
+}
+
+.linkhpc {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.linkhpc a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.buttonlinkforstyle {
+  margin-top: 10px;
+}
+
+/* Products section */
+.displayflexleftsidecategories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 5%;
+  gap: 30px;
+}
+
+.imagerightsidecategories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  width: 100%;
+}
+
+.imagerightsidediv {
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+
+.imgrightsidecategories {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.imagerightsideh1 {
+  font-size: 20px;
+  margin: 10px 0 5px 0;
+}
+
+.pricep {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.viewmenudiv {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+
+
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  font-family: Arial, sans-serif;
+  margin-top: 40px;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-contact h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer-contact p,
+.footer-copy p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-contact a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.product-view-modal {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  backdrop-filter: blur(5px); 
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.product-view-modal .product-view-content {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+
+
+}
+
+.product-view-modal .product-view-content span {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: red;
+}
+
+.product-view-modal .product-view-content img {
+  margin-top: 1.5rem;
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .imagerightsidediv {
+    width: 45%;
+  }
+
+  .signuplink {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .linkhpc {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .imagerightsidediv {
+    width: 100%;
+  }
+
+  .viewmenudiv {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .gomatoh1 {
+    font-size: 22px;
+  }
+
+  .linkhpc a {
+    font-size: 14px;
+  }
+
+  .footer-contact h3 {
+    font-size: 18px;
+  }
+
+  .footer-contact p,
+  .footer-copy p {
+    font-size: 12px;
+  }
+}

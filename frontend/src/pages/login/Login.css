@@ -1,0 +1,191 @@
+
+
+.inputlogin{
+    /* border:none;
+    border-bottom: 3px solid yellowgreen;
+    width:300px;
+    text-align: center;
+    background-color: black;
+    color:white; */
+      border: none;
+  border-bottom: 3px solid yellowgreen;
+  width: 300px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 10px;
+   transition: border-color 0.3s ease, color 0.3s ease;
+     
+}
+.loginmain{
+     width: 100vw;
+    height: 100vh;
+    display: flex; 
+   flex-wrap: nowrap;
+
+
+   
+ 
+    
+}
+.first{
+    /* height:100%;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black; */
+      height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 40px 20px;
+  box-sizing: border-box;
+    
+  
+    
+    
+
+
+}
+.linklogin{
+    /* display: flex;
+    gap:20px;
+    color:white; */
+     display: flex;
+  gap: 20px;
+  color: white;
+  margin-top: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.linklogin a{
+  color:white;
+}
+
+.first .login{
+    color:white;
+      
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+.link a{
+    /* color:white;
+    text-decoration: none;
+    font-size:25px;
+} */
+   color: white;
+  text-decoration: none;
+  font-size: 1rem;
+   transition: color 0.3s ease; 
+  cursor: pointer;
+}
+
+.linklogin a:hover {
+  color: orangered;
+  text-decoration: underline;
+}
+.second{
+    width:50%;
+    /* height:100%;
+    background-color: yellowgreen; */
+      
+  height: 100%;
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+
+    
+}
+
+.input::placeholder{
+     color:rgb(176, 172, 172);
+    font-weight: 100;
+    font-family: sans-serif;
+
+}
+.inputlogin:focus {
+  color: orangered;
+  outline: none;
+  border-bottom-color: orangered;
+}
+
+ .food img{
+    width:100%;
+    height:100%;
+}
+.food{
+    background-color: yellowgreen;
+    width:40%;
+    height:100%;
+    display: flex;
+}
+
+small{
+    color:red;
+   margin-top: -15px;
+  margin-bottom: 15px;
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+ .seconod img{
+      max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 15px;
+ }
+ .loginbutton:hover{
+      background-color: orangered !important; 
+  color: white !important;
+
+ }
+
+ @media (max-width: 800px) {
+  .first .login {
+    font-size: 1.7rem;
+  }
+  .inputlogin {
+    width: 100%;
+    max-width: 100%;
+    font-size: 0.95rem;
+    padding: 10px 8px;
+  }
+ 
+ 
+  .linklogin {
+    gap: 15px;
+  }
+  .linklogin a {
+    font-size: 0.9rem;
+  }
+   .loginbutton {
+    width: 100% !important;
+    max-width: 280px !important;
+    height: 45px !important;
+  }
+
+  .first,
+  .second {
+    width: 100%; 
+  }
+  .second{
+    display: none;
+  }
+}
+.loginbutton {
+  cursor: pointer;
+  border-radius: 50px; /* rounded button */
+  transition: background-color 0.3s ease;
+}
+small{
+  color:red;
+}
